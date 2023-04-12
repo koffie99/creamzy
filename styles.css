@@ -62,17 +62,18 @@ body{
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    display: none;
+    /* display: none; */
     transition: 1s;
 }
 
 .creams .card:hover button{
     display: block;
+    transition: 1s;
 }
 
-.creams .card button:hover{
+/* .creams .card button:hover{
     background-color: #b81934;
-}
+} */
 
 .c1{
     animation: move 1s alternate forwards;
